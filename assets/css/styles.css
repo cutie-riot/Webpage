@@ -1,0 +1,67 @@
+body {
+    background-color: #0d0d0d;
+    color: #00ffff;
+    font-family: 'Lucida Console', 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #ff00ff;
+    padding: 20px;
+    box-shadow: 0 0 20px #ff00ff;
+    background: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+h1, h2, h3, p {
+    text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+}
+
+a {
+    color: #ff00ff;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00ffff;
+}
+
+.terminal {
+    background-color: #000000;
+    border: 1px solid #00ffff;
+    padding: 20px;
+    box-shadow: 0 0 10px #00ffff;
+    font-family: 'Lucida Console', 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+.email-button {
+    background-color: #ff00ff;
+    border: none;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lucida Console', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 20px 2px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+    transition: all 0.3s ease;
+}
+
+.email-button:hover {
+    background-color: #00ffff;
+    color: #ff00ff;
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
+}
