@@ -44,7 +44,7 @@ a:hover {
     margin-top: 20px;
 }
 
-.email-button {
+.email-button, .venmo-button {
     background-color: #ff00ff;
     border: none;
     color: #000000;
@@ -60,8 +60,9 @@ a:hover {
     transition: all 0.3s ease;
 }
 
-.email-button:hover {
+.email-button:hover, .venmo-button:hover {
     background-color: #00ffff;
     color: #ff00ff;
     box-shadow: 0 0 20px #00ffff, 0 0 40px #ff00ff;
 }
+
